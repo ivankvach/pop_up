@@ -1,0 +1,127 @@
+
+
+
+#demo {
+    margin: 50px;
+    text-align: center;
+  }
+  #demo h1 {
+    margin: 150px, 0px, 150px, 0px;
+  }
+  #testcarousel {
+    position:relative;
+    display: flex;
+  }
+  
+  #testcarousel img {
+    width: 80%;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  #testcarousel11 {
+    display:flex;
+  }
+  button {
+      margin-top: 120px;
+        font-size: 30px;
+  }
+  #testcarousel0 #testcarousel1 #testcarousel2 #testcarousel3 #testcarousel4 #testcarousel5 {
+    justify-content: center;
+  }
+  
+  #testcarousel0 button:hover {
+    opacity: 0.3;
+  }
+  #testcarousel5 button:hover {
+    opacity: 0.3;
+  }
+  #testcarousel img:hover {
+    opacity: 0.6;
+  }
+  #popup {
+    margin: 50px;
+    text-align: center;
+    //visibility: hidden;
+    position: fixed;
+    top: 7%;
+    left: 25%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: #ffcccc;
+    z-index: 15;
+  }
+  #popup-1 {
+    margin: 50px;
+    text-align: center;
+    //visibility: hidden;
+    position: fixed;
+    top: 30px;
+    left: 400px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: #F7F4F3;
+    z-index: 15;
+  }
+  #popup-btn button{
+    display: inline-block;
+    margin-top: 0px;
+    width: 150px;
+    height: 50px;
+    background: grey;
+  }
+  #popup-btn button:hover {
+    background: green;
+  }
+  #popup-cancel1 {
+  /*   position: flex
+    justify-content: right; */
+  }
+  #popup-cancel button {
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    right: -48%;
+    margin-top: 0px;
+    width: 25px;
+    height: 25px;
+    background: grey;
+    border: none;
+  }
+  #popup-cancel button:hover {
+    background: red;
+  }
+  #popup-buy {
+    position: absolute;
+    bottom: 10px;
+  }
+  #popup1 {
+    display: flex;
+    justify-content: center;
+  }
+  #popup-text p {
+    padding: 55px;
+    text-align: left;
+    width: 200px;
+  }
+  #hreff {
+    width: 300px;
+  }
+  #text {
+    visibility: hidden;
+  }
+  #product-recommendations {
+    display: flex;
+  }
+  .product-recommendations {
+  /*   width: 200px;
+    height: 200px; */
+  }
+  .product {
+    display:inline;
+  }
+  .product p {
+    display:inline;
+  }
+  .product_img {
+    display:inline;
+  }

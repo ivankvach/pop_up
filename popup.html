@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssCarouselShopify.css">
+    <title>POPUP</title>
+</head>
+<body>
+
+    <div style="display: flex; justify-content: center"><h1>HI PopUp Here</h1></div>
+    <div id="testcarousel">
+        <div class="cont" id="testcarousel0"><button onclick="myFunction1()"><</button></div>  
+        <div id="testcarousel1"><img onclick="myFunction20()" id="imag1" class="go" src="https://cdn.shopify.com/s/files/1/0551/1820/0941/products/product-image-354904609.jpg?v=1641376468" alt=""></div>
+        <div id="testcarousel2"><img onclick="myFunction21()" id="imag2" class="go" src="https://cdn.shopify.com/s/files/1/0551/1820/0941/products/product-image-1434056154.jpg?v=1641376520" alt=""></div>
+        <div id="testcarousel3"><img onclick="myFunction22()" id="imag3" class="go" src="https://cdn.shopify.com/s/files/1/0551/1820/0941/products/product-image-1250884701.jpg?v=1641376553" alt=""></div>
+        <div id="testcarousel4"><img onclick="myFunction23()" id="imag4" class="go" src="https://cdn.shopify.com/s/files/1/0551/1820/0941/products/product-image-877140709.jpg?v=1641376632" alt=""></div>
+          <div id="testcarousel5"><button onclick="myFunction()">></button></div>
+      </div>
+
+
+
+    <div id="popup" style="visibility:hidden">
+        <div id="popup-cancel1">
+          <div id="popup-cancel">
+            <button onclick="myFunction3()">X</button>
+          </div>
+       </div>
+          <h3 id="popuptitle">Fashion Men Stainless Steel Case Watch</h3>
+      <div id="popup1">
+          <div id="popup-img">
+          <img id="imag12" src="" style="width:300px; height:300px; margin: 30px" alt=""></div>
+         <div id="popup-text">
+           <p id="popuptext">Brand Name: xiniu</br>
+  Gender: Men</br>
+  Style: Fashion & Casual</br>
+  Movement: Quartz</br>
+  Case Material: Alloy</br>
+  Band Length: 22cm</br>
+  Clasp Type: Buckle</br>
+  Water Resistance Depth: No waterproof</br>
+  Feature: None</br>
+  Dial Diameter: 35.5mm</br>
+  Model Number: fashion watch</br>
+  Boxes & Cases Material: No package</br>
+  Dial Window Material Type: Glass</br>
+  Case Shape: Round</br>
+  Band Material Type: PU</br>
+  Band Width: 19mm</br>
+  Case Thickness: 7mm</br>
+  Item Type: Quartz Wristwatches</p>
+  </div>
+  </div>
+          <div id="popup-btn">
+           <a id="hreff" style="visibility:hidden" href = "https://ivankvachtest.myshopify.com/products/2017-luxury-brand-mens-watches-leather-mens-quartz-clock-man-casual-wrist-watch-relogio-masculino-horloges-mannen-515"><button></button></a>
+                
+          </div>
+  <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+  <form method="post" action="/cart/add" target="dummyframe">
+          <input type="hidden" id="quantity1" name="id" value="" />
+  <!--         <input min="1" type="number" id="quantity" name="quantity" value="1"/> -->
+          <input type="submit" value="Add to cart" class="btn"/>
+  </form>
+    </div>
+
+
+
+      <script src = "popup.js"></script>
+      <script src = "carousel.js"></script>
+</body>
+</html>
